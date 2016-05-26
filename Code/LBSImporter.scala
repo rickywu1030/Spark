@@ -23,7 +23,7 @@ object LBSImporterTest {
   def main(args: Array[String]) {
 //    if (args.length < 4) {
 //      System.err.println("Usage: KafkaTop10Url <zkQuorum> <group> <topics> <numThreads>")
-//      System.err.println("Sample: KafkaTop10Url 172.17.34.215:2181 console-consumer-79829 flumeData 5")
+//      System.err.println("Sample: KafkaTop10Url 172.xxx.xxx.xxx:2181 console-consumer-79829 flumeData 5")
 //      System.exit(1)
 //    }
     val sparkConf = new SparkConf().setAppName("LBSImporterTest")
@@ -76,7 +76,7 @@ object LBSImporterToHbase {
   def main(args: Array[String]) {
     //    if (args.length < 4) {
     //      System.err.println("Usage: KafkaTop10Url <zkQuorum> <group> <topics> <numThreads>")
-    //      System.err.println("Sample: KafkaTop10Url 172.17.34.215:2181 console-consumer-79829 flumeData 5")
+    //      System.err.println("Sample: KafkaTop10Url 172.xxx.xxx.xxx:2181 console-consumer-79829 flumeData 5")
     //      System.exit(1)
     //    }
     val sparkConf = new SparkConf().setAppName("LBSImporterToHbase")
